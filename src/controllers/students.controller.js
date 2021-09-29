@@ -28,9 +28,5 @@ const students = [
 ]
 
 export const getStudents = async (req, res) => {
-  res.json(students);
-};
-
-exports.getMeals = () => {
-  return students;
+  return res.json(students);
 };
