@@ -27,6 +27,6 @@ const students = [
   }
 ]
 
-export const getStudents = async (req, res) => {
+export function getStudents (req, res) {
   return res.json(students);
 };
